@@ -3,6 +3,7 @@ cipher = input('Ingresa tu criptograma: ')
 text = ''
 for char in cipher:
     if not char.isalpha():
+    
         continue
     char = char.upper()
     code = ord(char) - 1
