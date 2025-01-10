@@ -10,8 +10,8 @@ class Book:
         self.__discount = discount
     def get_price(self):
         if self.__discount:
-            return self.__price * (1-self.__discount)
+            return self. __price * (1-self.__discount)
         return self.__price
     def __repr__(self):
-    return f"Título: {self.title}, Cantidad: {self.quantity}, " \
-           f"Autor: {self.author}, Precio: {round(self.get_price(), 3)} €"
+        return "Título: {self.title}, Cantidad: {self.quantity}, " \
+           "Autor: {self.author}, Precio: {round(self.get_price(), 3)} €"
